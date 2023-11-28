@@ -1,0 +1,171 @@
+body
+{
+    background: #E5E7EB;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+h1
+{
+    color: #263238 ;
+    text-align: center;
+    margin-top: 40px;
+}
+h3
+{
+    color: #263238;
+    margin: 20px 0 0;
+    padding: 0;
+}
+.container
+{
+    --card_JS: #FFEB3B;
+    --card_Python: #3CCCDD;
+    --card_PHP: #777BB3;
+    --card_Ruby: #EC1622;
+    --card_Java: #DB380E;
+    --card_C: #7A5EDE;
+    max-width: 1650px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card
+{
+    margin: 1rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 410px;
+    box-sizing: border-box;
+}
+.card_icon
+{
+    text-align: center;
+}
+.card_icon img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 1rem;
+}
+.card .content
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.card ul
+{
+    list-style-type: none;
+    padding: 1rem;
+}
+.card ul li
+{
+    color: #212121;
+    background: #B0BEC5;
+    border-left: 2px solid #263238;
+    padding-left: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.card a
+{
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #263238;
+    font-weight: bold;
+}
+#JS
+{
+    border: 0.2rem solid var(--card_JS);
+}
+#Python
+{
+    border: 0.2rem solid var(--card_Python);
+}
+#PHP
+{
+    border: 0.2rem solid var(--card_PHP);
+}
+#Ruby
+{
+    border: 0.2rem solid var(--card_Ruby);
+}
+#Java
+{
+    border: 0.2rem solid var(--card_Java);
+}
+#C
+{
+    border: 0.2rem solid var(--card_C);
+}
+#JS a
+{
+    border-top: 0.2rem solid var(--card_JS);
+}
+#JS a:hover
+{
+    text-decoration: underline;
+}
+#Python a
+{
+    border-top: 0.2rem solid var(--card_Python);
+}
+#Python a:hover
+{
+    text-decoration: underline;
+}
+#PHP a
+{
+    border-top: 0.2rem solid var(--card_PHP);
+}
+#PHP a:hover
+{
+    text-decoration: underline;
+}
+#Ruby a
+{
+    border-top: 0.2rem solid var(--card_Ruby);
+}
+#Ruby a:hover
+{
+    text-decoration: underline;
+}
+#Java a
+{
+    border-top: 0.2rem solid var(--card_Java);
+}
+#Java a:hover
+{
+    text-decoration: underline;
+}
+#C a
+{
+    border-top: 0.2rem solid var(--card_C);
+}
+#C a:hover
+{
+    text-decoration: underline;
+}
+
+@media (max-width: 924px)
+{
+    .container
+    {
+        max-width: 100%;
+    }
+    .card
+    {
+        margin: 0.5rem;
+        width: 90%;
+    }
+}
+
+
