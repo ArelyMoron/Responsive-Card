@@ -159,11 +159,12 @@ h3
 {
     .container
     {
-        max-width: 100%;
+        display: block;
+        width: 100%;
     }
     .card
     {
-        margin: 0.5rem;
+        margin: auto auto 1rem;
         width: 90%;
     }
 }
