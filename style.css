@@ -25,7 +25,8 @@ h3
     --card_Ruby: #EC1622;
     --card_Java: #DB380E;
     --card_C: #7A5EDE;
-    max-width: 1650px;
+    width: 1650px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +156,7 @@ h3
     text-decoration: underline;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 924px)
 {
     .container
     {
